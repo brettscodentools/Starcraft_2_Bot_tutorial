@@ -10,6 +10,9 @@ from sc2.player import Bot, Computer
 
 
 #this is my bot class to fill out with rules
-class kipBot(sc2.BotAI):
-    __init__():
+class kipBot(sc2.BotAI, *args):
+    def __init__(self, *args):
+        pass
+
+    
 
