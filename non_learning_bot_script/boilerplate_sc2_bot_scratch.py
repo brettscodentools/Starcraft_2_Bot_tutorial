@@ -147,7 +147,7 @@ class KipBot(sc2.BotAI):
 
     #an attack function
     async def attack(self):
-        #check if we have a big enough pool of stalkers to commence an attack with
+        #check is we have a big enough pool of stalkers to commence an attack with
         if (self.units(STALKER).amount + self.units(ZEALOT).amount) > 30:
             #both loops basically just tell the idle zealots and stalkers to..
             #.. perform attack and to use aquire target to return a target value
